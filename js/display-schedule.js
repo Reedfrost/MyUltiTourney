@@ -1,61 +1,3 @@
-/*
-* The HTML base file for MyUltiTourney. Currently including all JS scripts. SSH Test Edit
-*/
-<html>
-	<head>
-		<title>TMP 2017</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="The offical website of the Kansas State Men's Ultimate Club Team" />
-		<meta name="keywords" content="" />
-		<link rel="icon" href="../images/wizard-logo-ico.ico">
-		<script src="../js/jquery.min.js"></script>
-		<script src="../js/jquery.scrolly.min.js"></script>
-		<script src="../js/jquery.scrollzer.min.js"></script>
-		<script src="../js/skel.min.js"></script>
-		<script src="../js/skel-layers.min.js"></script>
-		<script src="../js/init.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
-		<script src="/js/display-schedule.js"></script>
-		<script>
-		  // Initialize Firebase
-		  var config = {
-			apiKey: "AIzaSyCyw09N1cTa-Ok2rfGdQMsq6hjvCpGElj4",
-			authDomain: "myultitourney-33546.firebaseapp.com",
-			databaseURL: "https://myultitourney-33546.firebaseio.com",
-			storageBucket: "myultitourney-33546.appspot.com",
-			messagingSenderId: "660017373449",
-		  };
-		  firebase.initializeApp(config);
-		</script>
-		<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-	</head>
-	
-	<body>
-		<div id="tmp">
-		<h1>My Ulti Tourney</h1>
-		<h2 id="tourneyName"></h2>
-		</br>		
-		<input type="button" value="View Your Tourney Info" onclick="GenerateTable()" />
-		</br>
-		</br>
-		<h3 id="description"></h3>
-		</br>
-		<h3 id="PoolAtxt"></h3>
-		<div id="dvTable"></div>
-		<h3 id="PoolBtxt"></h3>
-		<div id="dvTable2"></div>
-		<h3 id="PoolCtxt"></h3>
-		<div id="dvTable3"></div>
-		<h3 id="PoolDtxt"></h3>
-		<div id="dvTable4"></div>
-		<h3 id="Crossovertxt"></h3>
-		<div id="dvTable5"></div>
-		<script type="text/javascript">/*
 		function GenerateTable() {
 		
 			var hashName = location.hash.substr(1);
@@ -311,8 +253,4 @@
 			 
 				
 			});
-		}*/
-		</script>
-		</div>
-	</body>
-</html>
+		}
